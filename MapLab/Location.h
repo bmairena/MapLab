@@ -11,5 +11,7 @@ public:
 	Location *South = nullptr;
 	Location *West = nullptr;
 	Location *East = nullptr;
+	
+	std::string getLocationInfo();
 };
 
